@@ -1,3 +1,4 @@
+#compdef gulp
 
 # save the plugin directory, so we can find our
 # javascripts
@@ -24,5 +25,3 @@ function _gulp () {
     '--silent[disable all gulp logging]' \
     '*::task:( $compls )'
 }
-
-compdef _gulp gulp
